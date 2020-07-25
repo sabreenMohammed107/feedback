@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-	<title>Contact V16</title>
+	<title>Senior Feedback</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--===============================================================================================-->
-	<link rel="icon" type="{{ asset('webasset/image/png')}}" href="{{ asset('webasset/images/icons/favicon.ico')}}" />
+	<link rel="icon" type="{{ asset('webasset/image/png')}}" href="{{ asset('webasset/images/icons/logo.png')}}" />
 	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="{{ asset('webasset/vendor/bootstrap/css/bootstrap.min.css')}}">
 	<!--===============================================================================================-->
