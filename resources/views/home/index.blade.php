@@ -14,16 +14,16 @@
 			</div>
 		</div>
 	</div>
-   
+
 	<div class="container-contact100">
 		<div class="wrap-contact100">
 			<!--<button class="btn-hide-contact100">
 				<i class="zmdi zmdi-close"></i>
 			</button>-->
             @if ($message =Session::get('message'))
-   
+
    <div id="alertDiv" class="alert alert-info alert-block">
-<button type="button" id="alertClose" class="close" data-dismiss="alert">×</button>	
+<button type="button" id="alertClose" class="close" data-dismiss="alert">×</button>
    <strong style="color:black;font-weight:bold">{{ $message }}</strong>
 </div>
 
@@ -66,7 +66,7 @@
 						<span class="lnr lnr-pencil m-b-2"></span>
 					</label>
                 </div>
-                
+
                 <div class="wrap-input100 ">
 					<input id="student_course" class="input100" type="text" name="student_course" placeholder="الدورة اللى درستها معانا">
 					<span class="focus-input100"></span>
@@ -100,7 +100,7 @@
 				</div>
 
 				<div class="container-contact100-form-btn">
-					<button class="contact100-form-btn">
+					<button type="submit" class="contact100-form-btn">
 						Send Now
 					</button>
 				</div>

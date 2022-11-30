@@ -11,8 +11,7 @@
 |
 */
 
-Route::get('/', 'IndexController@index');
+Route::get('/', 'App\Http\Controllers\IndexController@index');
 
-Route::post('/sendMessage', 'IndexController@sendMessage')->name('sendMessage');
-
+Route::post('/sendMessage', 'App\Http\Controllers\IndexController@sendMessage')->name('sendMessage');
 

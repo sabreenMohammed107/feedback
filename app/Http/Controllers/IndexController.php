@@ -14,16 +14,17 @@ class IndexController extends Controller
 
 
     public function sendMessage(Request $request){
-    
-     
-          
-             Students_feedback::create($request->all());
-          
+
+
+
+             $opp=Students_feedback::create($request->all());
+
+
               return redirect()->back()->with('message', 'Thanks; your feedback has been submitted successfully !');
-         
-      
-       
-       
-    
+
+
+
+
+
     }
 }
